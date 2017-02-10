@@ -11,11 +11,15 @@ Show what the library does as concisely as possible, developers should be able t
 ## Motivation
 
 A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
-
+-->
 ## Installation
 
-Provide code examples and explanations of how to get the project.
+In order to run this script, you'll need to do two things in addition to cloning this repo. 
 
+1. Follow the [instructions on 2ality](http://www.2ality.com/2015/10/google-analytics-api.html) in order to get your JSON authentication file for Google Analytics API.
+2. Make sure NodeJs is installed. If it isn't installed already, you can [download it here](https://nodejs.org/en/download/).
+
+<!--
 ## API Reference
 
 Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
