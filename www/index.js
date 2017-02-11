@@ -26,15 +26,15 @@ jwtClient.authorize((err, tokens) => {
 
 function queryData(analytics) {
 	analytics.data.ga.get({
-		'auth': jwtClient,
-		'ids': VIEW_ID,
-		'metrics': 'ga:uniquePageviews',
-		'dimensions': 'ga:pagePath',
+		auth: jwtClient,
+		ids: VIEW_ID,
+		metrics: 'ga:uniquePageviews',
+		dimensions: 'ga:pagePath',
 		'start-date': '30daysAgo',
 		'end-date': 'yesterday',
-		'sort': '-ga:uniquePageviews',
+		sort: '-ga:uniquePageviews',
 		'max-results': 10,
-		'filters': 'ga:pagePath=~/ch_[-a-z0-9]+[.]html$',
+		filters: 'ga:pagePath=~/ch_[-a-z0-9]+[.]html$',
 	}, (err, response) => {
 		if (err) {
 			console.log(err);
