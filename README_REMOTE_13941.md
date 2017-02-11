@@ -14,7 +14,7 @@ A short description of the motivation behind the creation and maintenance of the
 -->
 ## Installation
 
-In order to run this script, you'll need to do two things in addition to cloning this repo. 
+In order to run this script, you'll need to do two things in addition to cloning this repo.
 
 1. Follow the [instructions on 2ality](http://www.2ality.com/2015/10/google-analytics-api.html) in order to get your JSON authentication file for Google Analytics API.
 2. Make sure NodeJs is installed. If it isn't installed already, you can [download it here](https://nodejs.org/en/download/).
