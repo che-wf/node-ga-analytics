@@ -1,8 +1,7 @@
 exports.reports = [
     {
         dimensions: 'ga:channelGrouping,ga:sourceMedium', // Source / Medium
-        metrics: 'ga:sessions'
-        // metrics: 'ga:sessions,ga:percentNewSessions,ga:users,ga:newUsers,ga:bounceRate,ga:pageviewsPerSession,ga:avgSessionDuration,ga:transactionsPerSession,ga:transactions,ga:transactionRevenue'
+        metrics: 'ga:sessions,ga:percentNewSessions,ga:users,ga:newUsers,ga:bounceRate,ga:pageviewsPerSession,ga:avgSessionDuration,ga:transactionsPerSession,ga:transactions,ga:transactionRevenue'
     }, {
         dimensions: 'ga:channelGrouping', // Traffic Type
         metrics: 'ga:sessions,ga:percentNewSessions,ga:users,ga:newUsers,ga:bounceRate,ga:pageviewsPerSession,ga:avgSessionDuration,ga:transactionsPerSession,ga:transactions,ga:transactionRevenue'
